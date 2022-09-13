@@ -17,7 +17,7 @@ h2 {
 
 .internal-link {
     text-decoration: none;
-    font-family: lobster, sans-serif;
+    font-family: open-sans, sans-serif;
     color: #d13c3a;
 }
 
@@ -59,7 +59,35 @@ nav {
 #left-main {
     float: left;
     width: 70%;
+    height: 426px;
     border: black solid 1px;
+}
+
+#article-left {
+    float: left;
+    width: 46%;
+    height: 46%;
+    margin: 2%;
+    box-sizing: border-box;
+    border: black solid 1px;
+}
+
+#article-right {
+    float: right;
+    width: 46%;
+    height: 46%;
+    margin: 2%;
+    box-sizing: border-box;
+    border: black solid 1px;
+}
+
+#article-center {
+    clear: both;
+    width: 71%;
+    height: 44%;
+    margin: 2% auto;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
 /* Right hand side */
@@ -68,6 +96,11 @@ nav {
     width: 25%;
     border: black solid 1px;
 
+}
+
+aside > h2 {
+    padding: 5px 50px;
+    font-size: 240%;
 }
 
 aside > ul {
@@ -83,7 +116,8 @@ aside li {
 .right-link {
     float: left;
     padding: 45px 5px;
-    font-size: 150%;
+    font-size: 120%;
+    font-weight: bold;
 }
 
 .side-image {
@@ -111,9 +145,3 @@ aside li {
 
 
 
-/* clearfix solution taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_clearfix */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
