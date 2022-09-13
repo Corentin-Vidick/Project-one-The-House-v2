@@ -1,11 +1,19 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
 
+/* Clear floats after the columns */ /* from https://www.w3schools.com/css/css_float_clear.asp */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Removes all margins, padding and borders to start on blank slate */
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;  /* Trial change */
 }
 
 /* Headings, logo */
@@ -37,9 +45,13 @@ h1 {
 }
 
 /* Navigation bar */
-nav {
+#navigation {
     height: 56px;
     width: 100%;
+}
+
+#three-pages-nav {
+    height: auto;
 }
 
 #three-pages-nav li {
@@ -55,11 +67,17 @@ nav {
     font-size: 180%;
 }
 
+/* Main */
+#main {
+    width: 100%;
+    border: red solid 1px;
+    background-color: lightblue;
+}
+
 /* Left hand side */
 #left-main {
     float: left;
     width: 70%;
-    height: 426px;
     border: black solid 1px;
 }
 
@@ -68,8 +86,8 @@ nav {
     width: 46%;
     height: 46%;
     margin: 2%;
-    box-sizing: border-box;
     border: black solid 1px;
+    background-color: blue;
 }
 
 #article-right {
@@ -77,7 +95,6 @@ nav {
     width: 46%;
     height: 46%;
     margin: 2%;
-    box-sizing: border-box;
     border: black solid 1px;
 }
 
@@ -86,7 +103,6 @@ nav {
     width: 71%;
     height: 44%;
     margin: 2% auto;
-    box-sizing: border-box;
     border: 1px solid black;
 }
 
@@ -111,6 +127,7 @@ aside li {
     width: 100%;
     height: 120px;
     border: black solid 1px;
+    background-color: lightgreen;
 }
 
 .right-link {
@@ -143,11 +160,9 @@ aside li {
 }
 
 /* Footer */
-footer {
+#foot {
     width: 100%;
     height: 100px;
-    position: relative;
-    bottom: 5px;
     border: black solid 1px;
 }
 
