@@ -33,11 +33,11 @@ h2 {
 h1 {
     text-align: center;
     font-size: 500%;
-    padding-top: 5px;
+    padding-top: 110px;
 }
 
 #banner-image {
-    height: 300px;
+    height: 200px;
     width: 100%;
     background: url(../images/banner.jpg);
     background-position: center;
@@ -162,22 +162,22 @@ aside li {
 /* Footer */
 #foot {
     width: 100%;
-    height: 100px;
+    height: 80px;
     border: black solid 1px;
 }
 
-#footer-links-left {
+#foot li {
     float: left;
     list-style-type: none;
-    padding: 10px 50px;
-    font-size: 150%;
+    padding: 20px 50px;
+    font-size: 250%;
 
 }
 
 #footer-links-right {
     float: right;
     padding: 10px 50px;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 
