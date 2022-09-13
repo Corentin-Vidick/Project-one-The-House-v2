@@ -34,3 +34,21 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Navigation bar */
+nav{
+    height: 56px;
+    width: 100%;
+}
+#three-pages-nav li {
+    float: left;
+    list-style-type: none;
+    padding: 10px 50px;
+    font-size: 180%;
+}
+
+#contest-nav {
+    float: right;
+    padding: 10px 50px;
+    font-size: 180%;
+}
