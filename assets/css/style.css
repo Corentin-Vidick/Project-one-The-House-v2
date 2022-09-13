@@ -9,9 +9,10 @@
 }
 
 /* Headings, logo */
-h1, h2 {
+h1,
+h2 {
     font-family: lobster, sans-serif;
-    color: #d13c3a;   
+    color: #d13c3a;
 }
 
 .internal-link {
@@ -36,10 +37,11 @@ h1 {
 }
 
 /* Navigation bar */
-nav{
+nav {
     height: 56px;
     width: 100%;
 }
+
 #three-pages-nav li {
     float: left;
     list-style-type: none;
@@ -55,6 +57,60 @@ nav{
 
 /* Left hand side */
 #left-main {
+    float: left;
     width: 70%;
     border: black solid 1px;
 }
+
+/* Right hand side */
+#right-main {
+    float: right;
+    width: 25%;
+    border: black solid 1px;
+
+}
+
+#right-list {
+    list-style-type: none;
+}
+
+aside > h2 {
+    padding: 10px 50px;
+}
+
+.right-link {
+    float: left;
+    padding: 49px 10px;
+}
+
+.side-image {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 10px;
+}
+
+#outside-image {
+    background: url(../images/outside.jpg);
+    background-size: cover;
+}
+
+#inside-image {
+    background: url(../images/inside.JPG);
+    background-size: cover;
+}
+
+#animals-image {
+    background: url(../images/animals.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* clearfix solution taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
