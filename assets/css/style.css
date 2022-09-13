@@ -1,19 +1,21 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
 
-/* Clear floats after the columns */ /* from https://www.w3schools.com/css/css_float_clear.asp */
+/* Clear floats after the columns */
+/* from https://www.w3schools.com/css/css_float_clear.asp */
 .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 /* Removes all margins, padding and borders to start on blank slate */
 * {
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;  /* Trial change */
+    box-sizing: border-box;
+    /* Trial change */
 }
 
 /* Headings, logo */
@@ -86,7 +88,9 @@ h1 {
     width: 46%;
     height: 46%;
     margin: 2%;
+    border-radius: 15px;
     border: black solid 1px;
+    padding: 5px 10px;
     background-color: blue;
 }
 
@@ -95,7 +99,9 @@ h1 {
     width: 46%;
     height: 46%;
     margin: 2%;
+    border-radius: 15px;
     border: black solid 1px;
+    padding: 5px 10px;
 }
 
 #article-center {
@@ -103,7 +109,9 @@ h1 {
     width: 71%;
     height: 44%;
     margin: 2% auto;
+    border-radius: 15px;
     border: 1px solid black;
+    padding: 5px 10px;
 }
 
 /* Right hand side */
@@ -114,12 +122,12 @@ h1 {
 
 }
 
-aside > h2 {
+aside>h2 {
     padding: 5px 50px;
     font-size: 240%;
 }
 
-aside > ul {
+aside>ul {
     list-style-type: none;
 }
 
@@ -179,5 +187,3 @@ aside li {
     padding: 10px 50px;
     font-size: 250%;
 }
-
-
