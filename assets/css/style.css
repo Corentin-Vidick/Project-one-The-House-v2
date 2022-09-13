@@ -52,3 +52,9 @@ nav{
     padding: 10px 50px;
     font-size: 180%;
 }
+
+/* Left hand side */
+#left-main {
+    width: 70%;
+    border: black solid 1px;
+}
