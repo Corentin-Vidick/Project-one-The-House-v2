@@ -81,9 +81,11 @@ h1 {
 }
 
 /* Left hand side */
+/* Home page */
 #left-main {
     float: left;
     width: 70%;
+    height: 421px;
     border: black solid 1px;
 }
 
@@ -118,24 +120,75 @@ h1 {
     padding: 5px 10px;
 }
 
+/* Content pages*/
+.sub{
+    height: 33%;
+    overflow: auto;
+}
+
+.sub-left-image {
+    height: 100px;
+    width: 133px;
+    float: left;
+    margin: 10px;
+    overflow: auto;
+}
+
+.sub-right-image {
+    height: 100px;
+    width: 133px;
+    float: right;
+    margin: 10px;
+    overflow: auto;
+}
+
+.sub-right-text {
+    float: left;
+    margin: 10px;
+    font-family: open-sans, sans-serif;
+    color: #d13c3a;
+}
+
+.sub-left-text {
+    float: right;
+    margin: 10px;
+    font-family: open-sans, sans-serif;
+    color: #d13c3a;
+}
+
+#property1-image {
+    background: url(../images/property1.JPG);
+    background-size: cover;
+}
+
+#property2-image {
+    background: url(../images/property2.JPG);
+    background-size: cover;
+}
+
+#property3-image {
+    background: url(../images/property3.JPG);
+    background-size: cover;
+}
+
 /* Right hand side */
+/* Main */
 #right-main {
     float: right;
     width: 25%;
     border: black solid 1px;
-
 }
 
-aside>h2 {
+#right-main>h2 {
     padding: 5px 50px;
     font-size: 240%;
 }
 
-aside>ul {
+#right-main>ul {
     list-style-type: none;
 }
 
-aside li {
+#right-main li {
     width: 100%;
     height: 120px;
     border: black solid 1px;
@@ -170,6 +223,29 @@ aside li {
     background: url(../images/animals.jpg);
     background-size: cover;
 }
+/* Sub */
+#right-sub {
+    float: right;
+    width: 25%;
+    border: black solid 1px;
+}
+
+#right-sub>h2 {
+    padding: 5px 50px;
+    font-size: 240%;
+}
+
+#right-sub>ul {
+    list-style-type: none;
+    font-family: open-sans, sans-serif;
+    color: #d13c3a;
+    padding: 10px;
+}
+
+#right-sub li {
+    list-style-type: none;
+}
+
 
 /* Footer */
 #foot {
