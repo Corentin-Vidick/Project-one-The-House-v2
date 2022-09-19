@@ -31,6 +31,10 @@ h2 {
     color: #d13c3a;
 }
 
+.external-link {
+    color: #d13c3a;
+}
+
 /* Header */
 h1 {
     text-align: center;
@@ -184,6 +188,6 @@ aside li {
 
 #footer-links-right {
     float: right;
-    padding: 10px 50px;
-    font-size: 250%;
+    padding: 22px 50px;
+    font-size: 200%;
 }
