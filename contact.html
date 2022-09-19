@@ -34,30 +34,33 @@
         </div>
     </div>
 
-    <!-- Left-hand side of screen -->
-    <div id="main" class="row">
-        <section id="left-main">
-            CONTACT
-        </section>
-
-        <!-- Right-hand side of screen contains internal links - repeats on every page -->
-        <aside id="right-main">
-            <h2>Categories</h2>
-            <ul>
-                <li>
-                    <a href="outside.html" class="internal-link right-link">Outside <i class="fa-solid fa-tree"></i></a>
-                    <div id="outside-image" class="side-image"></div>
-                </li>
-                <li>
-                    <a href="inside.html" class="internal-link right-link">Inside <i class="fa-solid fa-tree"></i></a>
-                    <div id="inside-image" class="side-image"></div>
-                </li>
-                <li>
-                    <a href="animals.html" class="internal-link right-link">Animals <i class="fa-solid fa-tree"></i></a>
-                    <div id="animals-image" class="side-image"></div>
-                </li>
-            </ul>
-        </aside>
+    <!-- Contact form -->
+    <div id="form">
+        <h2 id="form-title">Contact Us</h2>
+        <form>
+            <fieldset>
+                <legend>
+                    Your details
+                </legend>
+                <label for="name-field" class="contact-info">Name: </label>
+                <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required/>
+                <br>
+                <label for="email-field" class="contact-info">Email: </label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
+                <br>
+                <label for="contact">Reason for contact: </label>
+                <select name="language" id="language">
+                      <option value="indoors">Indoors</option>
+                      <option value="outdoors">Outdoors</option>
+                      <option value="animals">Animals</option>
+                      <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="message">Your message: </label>
+                <br>
+                <textarea id="message" rows="10" cols="87" name="message" class="text-box"></textarea>
+            </fieldset>
+      </form>
     </div>
 
     <!-- Social media links and "Contact Us" link -->

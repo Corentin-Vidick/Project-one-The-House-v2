@@ -218,6 +218,19 @@ h1 {
     list-style-type: none;
 }
 
+/* Contact form */
+#form-title {
+    font-size: 300%;
+    text-align: center;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+.text-box {
+    border: black solid 1px;
+}
 
 /* Footer */
 #foot {
