@@ -156,21 +156,6 @@ h1 {
     color: #d13c3a;
 }
 
-#property1-image {
-    background: url(../images/property1.JPG);
-    background-size: cover;
-}
-
-#property2-image {
-    background: url(../images/property2.JPG);
-    background-size: cover;
-}
-
-#property3-image {
-    background: url(../images/property3.JPG);
-    background-size: cover;
-}
-
 /* Right hand side */
 /* Main */
 #right-main {
@@ -209,20 +194,7 @@ h1 {
     margin: 10px;
 }
 
-#outside-image {
-    background: url(../images/outside.jpg);
-    background-size: cover;
-}
 
-#inside-image {
-    background: url(../images/inside.JPG);
-    background-size: cover;
-}
-
-#animals-image {
-    background: url(../images/animals.jpg);
-    background-size: cover;
-}
 /* Sub */
 #right-sub {
     float: right;
@@ -266,4 +238,70 @@ h1 {
     float: right;
     padding: 22px 50px;
     font-size: 200%;
+}
+
+/* Images */
+#outside-image {
+    background: url(../images/outside.jpg);
+    background-size: cover;
+}
+
+#inside-image {
+    background: url(../images/inside.jpg);
+    background-size: cover;
+}
+
+#animals-image {
+    background: url(../images/animals.jpg);
+    background-size: cover;
+}
+
+#property1-image {
+    background: url(../images/property1.jpg);
+    background-size: cover;
+}
+
+#property2-image {
+    background: url(../images/property2.jpg);
+    background-size: cover;
+}
+
+#property3-image {
+    background: url(../images/property3.jpg);
+    background-size: cover;
+}
+
+#veggie1-image {
+    background: url(../images/veggie1.jpg);
+    background-size: cover;
+}
+
+#veggie2-image {
+    background: url(../images/veggie2.jpg);
+    background-size: cover;
+}
+
+#veggie3-image {
+    background: url(../images/veggie3.jpg);
+    background-size: cover;
+}
+
+#veggie4-image {
+    background: url(../images/veggie4.jpg);
+    background-size: cover;
+}
+
+#wildflower1-image {
+    background: url(../images/wildflower1.jpg);
+    background-size: cover;
+}
+
+#wildflower2-image {
+    background: url(../images/wildflower2.jpg);
+    background-size: cover;
+}
+
+#wildflower3-image {
+    background: url(../images/wildflower3.jpg);
+    background-size: cover;
 }
