@@ -156,6 +156,20 @@ h1 {
     color: #d13c3a;
 }
 
+/* Contact */
+.sub-middle-image {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.sub-middle-text {
+    float: left;
+    margin: 10px;
+    font-family: open-sans, sans-serif;
+    color: #d13c3a;
+}
+
 /* Right hand side */
 /* Main */
 #right-main {
@@ -316,5 +330,30 @@ h1 {
 
 #wildflower3-image {
     background: url(../images/wildflower3.jpg);
+    background-size: cover;
+}
+
+#floorplan1-image {
+    background: url(../images/floorplan1.jpg);
+    background-size: cover;
+}
+
+#floorplan2-image {
+    background: url(../images/floorplan2.jpg);
+    background-size: cover;
+}
+
+#livingroom1-image {
+    background: url(../images/livingroom1.jpg);
+    background-size: cover;
+}
+
+#livingroom2-image {
+    background: url(../images/livingroom2.jpg);
+    background-size: cover;
+}
+
+#shower-image {
+    background: url(../images/shower.jpg);
     background-size: cover;
 }
