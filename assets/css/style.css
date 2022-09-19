@@ -246,6 +246,20 @@ h1 {
     border: black solid 1px;
 }
 
+/* Contest form */
+.contest-column {
+    width: 33%;
+    float: left;
+}
+
+#contest {
+    padding: 10px;
+}
+
+.contest-info {
+    padding-left: 20px;
+}
+
 /* Footer */
 #foot {
     width: 100%;

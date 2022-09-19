@@ -38,67 +38,86 @@
     <div id="main" class="row">
         <section id="contest">
             <h2>Win a BBQ at The House</h2>
-            <legend>
-                Your details
-            </legend>
-            <label for="name-field" class="contact-info">Name: </label>
-            <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required/>
-            <label for="surname-field" class="contact-info">Surname: </label>
-            <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-box" required/>
-            <label for="email-field" class="contact-info">Email: </label>
-            <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
-            <label for="age">Age group: </label>
-            <select name="age" id="age">
-                <option value="0-18">0 to 18</option>
-                <option value="19-30">19 to 30</option>
-                <option value="30-50">30 to 50</option>
-                <option value="50+">50 plus</option>
-            </select>
-            <div class="contest-column">
-                <h3>Question 1</h3>
-                <label for="option1">Option 1</label>
-            	<input type="radio" id="option1" value="option1" name="question1">
-            	<label for="green">Option 2</label>
-            	<input type="radio" id="option2" value="option2" name="question1">
-            	<label for="blue">Option 3</label>
-            	<input type="radio" id="option3" value="option3" name="question1">
-            </div>
-            <div class="contest-column">
-                <h3>Question 2</h3>
-                <label for="option1">Option a</label>
-            	<input type="radio" id="optiona" value="optiona" name="question2">
-            	<label for="green">Option b</label>
-            	<input type="radio" id="optionb" value="optionb" name="question2">
-            	<label for="blue">Option c</label>
-            	<input type="radio" id="optionc" value="optionc" name="question2">
-            </div>
-            <div class="contest-column">
-                <h3>Question 3</h3>
-                <label for="option1">Option X</label>
-            	<input type="radio" id="optionx" value="optionx" name="question3">
-            	<label for="green">Option Y</label>
-            	<input type="radio" id="optiony" value="optiony" name="question3">
-            	<label for="blue">Option Z</label>
-            	<input type="radio" id="optionz" value="optionz" name="question3">
+            <br>
+            <div class="row">
+                <legend>
+                    Your details
+                </legend>
+                <label for="name-field" class="contest-info">Name: </label>
+                <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required />
+                <label for="surname-field" class="contest-info">Surname: </label>
+                <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-box"
+                    required />
+                <label for="email-field" class="contest-info">Email: </label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required />
+                <label for="age" class="contest-info">Age group: </label>
+                <select name="age" id="age">
+                    <option value="0-18">0 to 18</option>
+                    <option value="19-30">19 to 30</option>
+                    <option value="30-50">30 to 50</option>
+                    <option value="50+">50 plus</option>
+                </select>
             </div>
             <br>
-            <h3>Preferences</h3>
-            <div>
-				<input type="checkbox" id="idea1-checkbox" name="idea1">
-				<label for="idea1-checkbox">Idea 1</label>
-			</div>
-            <div>
-				<input type="checkbox" id="idea2-checkbox" name="idea2">
-				<label for="idea2-checkbox">Idea 2</label>
-			</div>
-            <div>
-				<input type="checkbox" id="idea3-checkbox" name="idea3">
-				<label for="idea3-checkbox">Idea 3</label>
-			</div>
-            <div>
-				<input type="checkbox" id="idea4-checkbox" name="idea4">
-				<label for="idea4-checkbox">Idea 4</label>
-			</div>
+            <div class="row">
+                <div class="contest-column">
+                    <h3>Question 1</h3>
+                    <div>
+                        <label for="option1">Option 1</label>
+                        <input type="radio" id="option1" value="option1" name="question1">
+                    </div>
+                    <div>
+                        <label for="green">Option 2</label>
+                        <input type="radio" id="option2" value="option2" name="question1">
+                    </div>
+                    <div>
+                        <label for="blue">Option 3</label>
+                        <input type="radio" id="option3" value="option3" name="question1">
+                    </div>
+                </div>
+                <div class="contest-column">
+                    <h3>Question 2</h3>
+                    <div>
+                        <label for="optiona">Option a</label>
+                        <input type="radio" id="optiona" value="optiona" name="question2">
+                    </div>
+                    <div>
+                        <label for="optionb">Option b</label>
+                        <input type="radio" id="optionb" value="optionb" name="question2">
+                    </div>
+                    <div>
+                        <label for="optionc">Option c</label>
+                        <input type="radio" id="optionc" value="optionc" name="question2">
+                    </div>
+                </div>
+                <div class="contest-column">
+                    <h3>Question 3</h3>
+                    <div>
+                        <label for="optionx">Option X</label>
+                        <input type="radio" id="optionx" value="optionx" name="question3">
+                    </div>
+                    <div>
+                        <label for="optiony">Option Y</label>
+                        <input type="radio" id="optiony" value="optiony" name="question3">
+                    </div>
+                    <div>
+                        <label for="optionz">Option Z</label>
+                        <input type="radio" id="optionz" value="optionz" name="question3">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <h3>Preferences</h3>
+                <label for="idea1-checkbox" class="contest-info">Idea 1</label>
+                <input type="checkbox" id="idea1-checkbox" name="idea1">
+                <label for="idea2-checkbox" class="contest-info">Idea 2</label>
+                <input type="checkbox" id="idea2-checkbox" name="idea2">
+                <label for="idea3-checkbox" class="contest-info">Idea 3</label>
+                <input type="checkbox" id="idea3-checkbox" name="idea3">
+                <label for="idea4-checkbox" class="contest-info">Idea 4</label>
+                <input type="checkbox" id="idea4-checkbox" name="idea4">
+            </div>
         </section>
     </div>
 
@@ -107,15 +126,15 @@
         <ul id="footer-links-left">
             <li>
                 <a href="https://facebook.com" target="_blank" class="external-link">
-                <i class="fa-brands fa-facebook"></i></a>
+                    <i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
                 <a href="https://pinterest.com" target="_blank" class="external-link">
-                <i class="fa-brands fa-pinterest"></i></a>
+                    <i class="fa-brands fa-pinterest"></i></a>
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" class="external-link">
-                <i class="fa-brands fa-instagram"></i></a>
+                    <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
         <div id="footer-links-right">
