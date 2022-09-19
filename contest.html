@@ -34,30 +34,72 @@
         </div>
     </div>
 
-    <!-- Left-hand side of screen -->
+    <!-- Contest form -->
     <div id="main" class="row">
-        <section id="left-main">
-            CONTEST
+        <section id="contest">
+            <h2>Win a BBQ at The House</h2>
+            <legend>
+                Your details
+            </legend>
+            <label for="name-field" class="contact-info">Name: </label>
+            <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required/>
+            <label for="surname-field" class="contact-info">Surname: </label>
+            <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-box" required/>
+            <label for="email-field" class="contact-info">Email: </label>
+            <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
+            <label for="age">Age group: </label>
+            <select name="age" id="age">
+                <option value="0-18">0 to 18</option>
+                <option value="19-30">19 to 30</option>
+                <option value="30-50">30 to 50</option>
+                <option value="50+">50 plus</option>
+            </select>
+            <div class="contest-column">
+                <h3>Question 1</h3>
+                <label for="option1">Option 1</label>
+            	<input type="radio" id="option1" value="option1" name="question1">
+            	<label for="green">Option 2</label>
+            	<input type="radio" id="option2" value="option2" name="question1">
+            	<label for="blue">Option 3</label>
+            	<input type="radio" id="option3" value="option3" name="question1">
+            </div>
+            <div class="contest-column">
+                <h3>Question 2</h3>
+                <label for="option1">Option a</label>
+            	<input type="radio" id="optiona" value="optiona" name="question2">
+            	<label for="green">Option b</label>
+            	<input type="radio" id="optionb" value="optionb" name="question2">
+            	<label for="blue">Option c</label>
+            	<input type="radio" id="optionc" value="optionc" name="question2">
+            </div>
+            <div class="contest-column">
+                <h3>Question 3</h3>
+                <label for="option1">Option X</label>
+            	<input type="radio" id="optionx" value="optionx" name="question3">
+            	<label for="green">Option Y</label>
+            	<input type="radio" id="optiony" value="optiony" name="question3">
+            	<label for="blue">Option Z</label>
+            	<input type="radio" id="optionz" value="optionz" name="question3">
+            </div>
+            <br>
+            <h3>Preferences</h3>
+            <div>
+				<input type="checkbox" id="idea1-checkbox" name="idea1">
+				<label for="idea1-checkbox">Idea 1</label>
+			</div>
+            <div>
+				<input type="checkbox" id="idea2-checkbox" name="idea2">
+				<label for="idea2-checkbox">Idea 2</label>
+			</div>
+            <div>
+				<input type="checkbox" id="idea3-checkbox" name="idea3">
+				<label for="idea3-checkbox">Idea 3</label>
+			</div>
+            <div>
+				<input type="checkbox" id="idea4-checkbox" name="idea4">
+				<label for="idea4-checkbox">Idea 4</label>
+			</div>
         </section>
-
-        <!-- Right-hand side of screen contains internal links - repeats on every page -->
-        <aside id="right-main">
-            <h2>Categories</h2>
-            <ul>
-                <li>
-                    <a href="outside.html" class="internal-link right-link">Outside <i class="fa-solid fa-tree"></i></a>
-                    <div id="outside-image" class="side-image"></div>
-                </li>
-                <li>
-                    <a href="inside.html" class="internal-link right-link">Inside <i class="fa-solid fa-tree"></i></a>
-                    <div id="inside-image" class="side-image"></div>
-                </li>
-                <li>
-                    <a href="animals.html" class="internal-link right-link">Animals <i class="fa-solid fa-tree"></i></a>
-                    <div id="animals-image" class="side-image"></div>
-                </li>
-            </ul>
-        </aside>
     </div>
 
     <!-- Social media links and "Contact Us" link -->
