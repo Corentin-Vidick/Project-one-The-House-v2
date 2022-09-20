@@ -14,117 +14,148 @@
 
 <body>
     <!-- Banner and title -->
-    <div id="banner">
-        <div id="banner-image">
-            <a href="index.html" class="internal-link">
+    <div class="container">
+        <div id="title">
+            <a href="index.html" class="link">
                 <h1>The House</h1>
             </a>
         </div>
+        <img src="assets/images/banner.jpg" alt="A rabbit's, dog's and cats' photos" width="1440px" height="300px">
     </div>
 
     <!-- Navigation bar with 3 pages & contest -->
-    <div id="navigation" class="row">
-        <ul id="three-pages-nav">
-            <li><a href="outside.html" class="internal-link">Outside</a></li>
-            <li><a href="inside.html" class="internal-link">Inside</a></li>
-            <li><a href="animals.html" class="internal-link">Animals</a></li>
-        </ul>
-        <div id="contest-nav">
-            <a href="contest.html" class="internal-link">Contest</a>
+    <div class="flex-container left">
+        <div class="flex-item fixed-height">
+            <a href="outside.html" class="link">Outside</a>
+        </div>
+        <div class="flex-item fixed-height">
+            <a href="inside.html" class="link">Inside</a>
+        </div>
+        <div class="flex-item fixed-height">
+            <a href="animals.html" class="link">Animals</a>
+        </div>
+    </div>
+    <div class="flex-container right">
+        <div class="flex-item fixed-height">
+            <a href="contest.html" class="link">Contest</a>
         </div>
     </div>
 
     <!-- Left-hand side of screen -->
-    <div id="main" class="row">
-        <div id="left-main">
-            <div class="sub">
+    <div id="main">
+        <div class="flex-container left">
+            <div class="flex-item half">
                 <h2>Reptiles</h2>
-                <div class="row">
-                    <div id="property1-image" class="sub-left-image"></div>
-                    <p class="sub-right-text">and at first</p>
+                <div class="clearfix">
+                    <img src="assets/images/property1.jpg" alt="A view of the garden and the house from outside"
+                        class="img-s">
+                    <p>and at first</p>
                 </div>
-                <div class="row">
-                    <div id="property2-image" class="sub-right-image"></div>
-                    <p class="sub-left-text">our projects were</p>
+                <div class="clearfix">
+                    <img src="assets/images/property2.jpg" alt="A view of the exterior of the property" class="img-s">
+                    <p>our projects were</p>
                 </div>
-                <div class="row">
-                    <div id="property3-image" class="sub-left-image"></div>
-                    <p class="sub-right-text">little by little</p>
+                <div class="clearfix">
+                    <img src="assets/images/property3.jpg" alt="A view of the garden with the concrete removed"
+                        class="img-s">
+                    <p>little by little</p>
                 </div>
             </div>
-            <div class="sub row">
+            <div class="flex-item half">
                 <h2>Pets</h2>
-                <p>image left and text</p>
-                <p>image right and text</p>
-                <p>image left and text</p>
+                <div class="clearfix">
+                    <img src="assets/images/property1.jpg" alt="A view of the garden and the house from outside"
+                        class="img-s">
+                    <p>and at first</p>
+                </div>
+                <div class="clearfix">
+                    <img src="assets/images/property2.jpg" alt="A view of the exterior of the property" class="img-s">
+                    <p>our projects were</p>
+                </div>
+                <div class="clearfix">
+                    <img src="assets/images/property3.jpg" alt="A view of the garden with the concrete removed"
+                        class="img-s">
+                    <p>little by little</p>
+                </div>
             </div>
-            <div class="sub row">
+            <div class="flex-item half">
                 <h2>Homestead</h2>
-                <p>image left and text</p>
-                <p>image right and text</p>
-                <p>image left and text</p>
+                <div class="clearfix">
+                    <img src="assets/images/property1.jpg" alt="A view of the garden and the house from outside"
+                        class="img-s">
+                    <p>and at first</p>
+                </div>
+                <div class="clearfix">
+                    <img src="assets/images/property2.jpg" alt="A view of the exterior of the property" class="img-s">
+                    <p>our projects were</p>
+                </div>
+                <div class="clearfix">
+                    <img src="assets/images/property3.jpg" alt="A view of the garden with the concrete removed"
+                        class="img-s">
+                    <p>little by little</p>
+                </div>
             </div>
         </div>
 
-        <!-- Right-hand side of screen contains internal links -->
-        <aside id="right-sub">
-            <h2>Learn more</h2>
-            <ul>
-                <li>
-                    <h3>Reptiles</h3>
+            <!-- Right-hand side of screen contains external links -->
+            <aside class="flex-container right">
+                <h2 class="flex-item full">Learn more</h2>
+                <div class="flex-item full">
+                    <h3>Property</h3>
                     <ul>
-                        <li><a href="#" target="_blank" class="external-link">
-                        Snakes</a></li>
-                        <li><a href="#" target="_blank" class="external-link">
-                        Turtles</a></li>
+                        <li><a href="https://www.wikihow.com/Break-Up-Concrete" target="_blank" class="link">
+                                Break concrete</a></li>
+                        <li><a href="https://www.gov.uk/guidance/right-to-contest" target="_blank" class="link">
+                                Acquire land</a></li>
                     </ul>
-                </li>
-                <li>
-                    <h3>Pets</h3>
+                </div>
+                <div class="flex-item full">
+                    <h3>Flowers</h3>
                     <ul>
-                        <li><a href="#" target="_blank" class="external-link">
-                        Rabbits</a></li>
-                        <li><a href="#" target="_blank" class="external-link">
-                        Cats</a></li>
-                        <li><a href="#" target="_blank" class="external-link">
-                        Dogs</a></li>
+                        <li><a href="#" target="_blank" class="link">
+                                Wild flowers</a></li>
+                        <li><a href="#" target="_blank" class="link">
+                                Perenials</a></li>
                     </ul>
-                </li>
-                <li>
-                    <h3>Homestead</h3>
+                </div>
+                <div class="flex-item full">
+                    <h3>Food</h3>
                     <ul>
-                        <li><a href="#" target="_blank" class="external-link">
-                        Chicken</a></li>
+                        <li><a href="#" target="_blank" class="link">
+                                Veggies</a></li>
+                        <li><a href="#" target="_blank" class="link">
+                                Sweet</a></li>
                     </ul>
-                </li>
-            </ul>
-        </aside>
-    </div>
-
-    <!-- Social media links and "Contact Us" link -->
-    <div id="foot" class="row">
-        <ul id="footer-links-left">
-            <li>
-                <a href="https://facebook.com" target="_blank" class="external-link">
-                <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://pinterest.com" target="_blank" class="external-link">
-                <i class="fa-brands fa-pinterest"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" class="external-link">
-                <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-        <div id="footer-links-right">
-            <a href="contact.html" class="internal-link">Contact</a>
+                </div>
+            </aside>
         </div>
     </div>
 
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/c541643ad5.js" crossorigin="anonymous"></script>
-    <!-- font awesome script -->
+        <!-- Social media links and "Contact Us" link -->
+        <div class="flex-container left">
+            <div class="flex-item fixed-height">
+                <a href="https://facebook.com" target="_blank" class="link">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="flex-item fixed-height">
+                <a href="https://pinterest.com" target="_blank" class="link">
+                    <i class="fa-brands fa-pinterest"></i></a>
+            </div>
+            <div class="flex-item fixed-height">
+                <a href="https://instagram.com" target="_blank" class="link">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="flex-container right">
+            <div class="flex-item fixed-height">
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+        </div>
+
+
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/c541643ad5.js" crossorigin="anonymous"></script>
+        <!-- font awesome script -->
 
 </body>
 

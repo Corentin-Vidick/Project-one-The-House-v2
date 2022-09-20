@@ -14,42 +14,47 @@
 
 <body>
     <!-- Banner and title -->
-    <div id="banner">
-        <div id="banner-image">
-            <a href="index.html" class="internal-link">
-                <h1>The House</h1>
-            </a>
-        </div>
+    <div class="container">
+
+            <a href="index.html" class="link"><h1>The House</h1></a>
+
+        <img src="assets/images/banner.jpg" alt="A rabbit's, dog's and cats' photos" width="1440px" height="300px">
     </div>
 
     <!-- Navigation bar with 3 pages & contest -->
-    <div id="navigation" class="row">
-        <ul id="three-pages-nav">
-            <li><a href="outside.html" class="internal-link">Outside</a></li>
-            <li><a href="inside.html" class="internal-link">Inside</a></li>
-            <li><a href="animals.html" class="internal-link">Animals</a></li>
-        </ul>
-        <div id="contest-nav">
-            <a href="contest.html" class="internal-link">Contest</a>
+    <div class="flex-container left">
+        <div class="flex-item fixed-height">
+            <a href="outside.html" class="link">Outside</a>
+        </div>
+        <div class="flex-item fixed-height">
+            <a href="inside.html" class="link">Inside</a>
+        </div>
+        <div class="flex-item fixed-height">
+            <a href="animals.html" class="link">Animals</a>
+        </div>
+    </div>
+    <div class="flex-container right">
+        <div class="flex-item fixed-height">
+            <a href="contest.html" class="link">Contest</a>
         </div>
     </div>
 
     <!-- Left-hand side of screen -->
-    <div id="main" class="row">
-        <div id="left-main">
-            <article id="article-left">
+    <div id="main">
+        <div class="flex-container left">
+            <article class="flex-item half">
                 <h2>Welcome</h2>
                 <p>
                     some welcome text
                 </p>
             </article>
-            <article id="article-right">
+            <article class="flex-item half"">
                 <h2>Overview</h2>
                 <p>
                     some welcome text
                 </p>
             </article>
-            <article id="article-center">
+            <article class="flex-item full">
                 <h2>Contest</h2>
                 <p>
                     some welcome text
@@ -58,45 +63,45 @@
         </div>
 
         <!-- Right-hand side of screen contains internal links -->
-        <aside id="right-main">
-            <h2>Categories</h2>
-            <ul>
-                <li>
-                    <a href="outside.html" class="internal-link right-link">Outside <i class="fa-solid fa-tree"></i></a>
-                    <div id="outside-image" class="side-image"></div>
-                </li>
-                <li>
-                    <a href="inside.html" class="internal-link right-link">Inside <i class="fa-solid fa-tree"></i></a>
-                    <div id="inside-image" class="side-image"></div>
-                </li>
-                <li>
-                    <a href="animals.html" class="internal-link right-link">Animals <i class="fa-solid fa-tree"></i></a>
-                    <div id="animals-image" class="side-image"></div>
-                </li>
+        <aside class="flex-container right">
+            <h2 class="flex-item full">Categories</h2>
+            <div class="flex-item fixed-height">
+                <a href="outside.html" class="link">Outside <i class="fa-solid fa-tree"></i></a>
+                <img src="assets/images/outside.jpg" alt="A stone garden with a picnic table" class="img-s">
+            </div>
+            <div class="flex-item fixed-height">
+                <a href="inside.html" class="link">Inside <i class="fa-solid fa-tree"></i></a>
+                <img src="assets/images/inside.jpg" alt="An empty living room with a staircase" class="img-s">
+            </div>
+            <div class="flex-item fixed-height">
+                <a href="animals.html" class="link">Animals <i class="fa-solid fa-tree"></i></a>
+                <img src="assets/images/animals.jpg" alt="A white cat in a hoodie" class="img-s">
+            </div>
             </ul>
         </aside>
     </div>
 
     <!-- Social media links and "Contact Us" link -->
-    <div id="foot" class="row">
-        <ul id="footer-links-left">
-            <li>
-                <a href="https://facebook.com" target="_blank" class="external-link">
+   <div class="flex-container left">
+        <div class="flex-item fixed-height">
+            <a href="https://facebook.com" target="_blank" class="link">
                 <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://pinterest.com" target="_blank" class="external-link">
+        </div>
+        <div class="flex-item fixed-height">
+            <a href="https://pinterest.com" target="_blank" class="link">
                 <i class="fa-brands fa-pinterest"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" class="external-link">
+        </div>
+        <div class="flex-item fixed-height">
+            <a href="https://instagram.com" target="_blank" class="link">
                 <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-        <div id="footer-links-right">
-            <a href="contact.html" class="internal-link">Contact</a>
         </div>
     </div>
+    <div class="flex-container right">
+        <div class="flex-item fixed-height">
+            <a href="contact.html" class="link">Contact</a>
+        </div>
+    </div>
+
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c541643ad5.js" crossorigin="anonymous"></script>
