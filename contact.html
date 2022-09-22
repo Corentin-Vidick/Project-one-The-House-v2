@@ -32,32 +32,39 @@
 </div>
 
     <!-- Contact form -->
-    <div id="form">
-        <h2 id="form-title">Contact Us</h2>
-        <form>
-            <fieldset>
-                <legend>
-                    Your details
-                </legend>
-                <label for="name-field" class="contact-info">Name: </label>
-                <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required/>
-                <br>
-                <label for="email-field" class="contact-info">Email: </label>
-                <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
-                <br>
-                <label for="contact">Reason for contact: </label>
-                <select name="language" id="language">
-                      <option value="indoors">Indoors</option>
-                      <option value="outdoors">Outdoors</option>
-                      <option value="animals">Animals</option>
-                      <option value="other">Other</option>
-                </select>
-                <br>
-                <label for="message">Your message: </label>
-                <br>
-                <textarea id="message" rows="10" cols="87" name="message" class="text-box"></textarea>
-            </fieldset>
-      </form>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <h4>Your details</h4>
+        <div class="flex-container">
+                <div class="flex-item">
+                    <label for="name-field" class="contact-info">Name: </label>
+                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required/>
+                </div>
+                <div class="flex-item">
+                    <label for="email-field" class="contact-info">Email: </label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
+                </div>
+                <div class="flex-item">
+                    <label for="email-field" class="contact-info">Email: </label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
+                </div>
+                <div class="flex-item">
+                    <label for="contact">Reason for contact: </label>
+                    <select name="language" id="language">
+                          <option value="indoors">Indoors</option>
+                          <option value="outdoors">Outdoors</option>
+                          <option value="animals">Animals</option>
+                          <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+                <h4>Your message</h4>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <textarea id="message" rows="10" cols="87" name="message" class="text-box"></textarea>
+                </div>   
+            </div>            
+        </div>
     </div>
 
     <!-- Social media links and "Contact Us" link -->
