@@ -15,12 +15,14 @@ img {
     height: 120px;
     float: right;
     overflow: auto;
+    padding: 5px;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
+    justify-content: center;
+    align-content: space-around;
 }
 .left {
     display: inline-flex;
@@ -34,6 +36,7 @@ img {
 
 .flex-item {
     text-align: center;
+    margin: 20px;
 }
 
 .fixed-height {
@@ -61,12 +64,16 @@ img {
 }
 
 /* Headings, logo */
-h1,h2 {
+body {
+    background-color: lightblue;
+}
+
+h1, h2, h3 {
     font-family: lobster, sans-serif;
     color: #d13c3a;
     text-align: center;
     vertical-align: baseline;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .link {
@@ -74,14 +81,23 @@ h1,h2 {
     font-family: open-sans, sans-serif;
     color: #d13c3a;
     font-size: 1.8em;
-    padding: 20px;
 }
 
-/* Main */
-#main {
+/* Navigation bar and footer */
+.bar {
     width: 100%;
-    border: red solid 1px;
-    background-color: lightblue;
+    height: auto;
+    background-color: darkolivegreen;
+}
+
+.nav-left a {
+    float: left;
+    padding: 10px 50px;
+}
+
+.nav-right {
+    float: right;
+    padding: 10px 50px;
 }
 
 /* Contact form */
@@ -116,6 +132,8 @@ h1,h2 {
 /* For medium screen sizes from 950px wide and down*/
 
 @media screen and (max-width: 950px) {
-    
+    h1, h2 {
+        font-size: 3em;
+    }
 
 }
