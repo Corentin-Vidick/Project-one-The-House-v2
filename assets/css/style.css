@@ -42,6 +42,13 @@ img {
 
 }
 
+ul {
+    list-style-type: none;
+}
+li {
+    font-size: 0.9em;
+}
+
 .clearfix {
     overflow: auto;
 }
@@ -57,7 +64,7 @@ img {
 }
 
 /* Headings, logo */
-body .form {
+body, .form {
     background-color: #188578;
 }
 
@@ -101,26 +108,11 @@ h3 {
     padding: 10px 50px;
 }
 
-/* Contact form */
+/* Forms */
 .text-input {
     width: 100%;
     height: auto;
     background-color: #70d145;
-}
-
-/* Contest form */
-.contest-column {
-    width: 33%;
-    float: left;
-    text-align: center;
-}
-
-#contest {
-    padding: 10px;
-}
-
-.contest-info {
-    padding-left: 20px;
 }
 
 /* Media queries */
@@ -128,7 +120,23 @@ h3 {
 
 @media screen and (max-width: 950px) {
     h1, h2 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
+    .link {
+        font-size: 1.5em;
+    }
+
+    .nav-right {
+        float: left;
+    }
+
+    .flex-item {
+        width: 75%;
+    }
+}
+
+/* For small screen sizes 800px and down*/
+
+@media screen and (max-width: 800px) {
 }
