@@ -3,6 +3,7 @@
 
 .container {
     position: relative;
+    background-color: #30d1be;
 }
 
 img {
@@ -28,6 +29,8 @@ img {
 .flex-item {
     text-align: center;
     margin: 20px;
+    width: 45%;
+    background-color: #70d145;
 }
 
 .fixed-height {
@@ -54,20 +57,25 @@ img {
 }
 
 /* Headings, logo */
-body {
-    background-color: lightblue;
+body .form {
+    background-color: #188578;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: lobster, sans-serif;
     color: #d13c3a;
     text-align: center;
     vertical-align: baseline;
     font-size: 3em;
+    padding: 20px;
 }
 
-h4 {
+h3 {
     font-size: 1.5em;
+    width: fit-content;
+    margin: auto;
+
+    background-color: #70d145;
 }
 
 .link {
@@ -81,7 +89,6 @@ h4 {
 .bar {
     width: 100%;
     height: auto;
-    background-color: darkolivegreen;
 }
 
 .nav-left a {
@@ -95,17 +102,10 @@ h4 {
 }
 
 /* Contact form */
-#form-title {
-    font-size: 300%;
-    text-align: center;
-}
-
-.contact-info {
-    padding-left: 20px;
-}
-
-.text-box {
-    border: black solid 1px;
+.text-input {
+    width: 100%;
+    height: auto;
+    background-color: #70d145;
 }
 
 /* Contest form */

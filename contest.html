@@ -20,12 +20,11 @@
     </div>
 
     <!-- Navigation bar with 3 pages & contest -->
-    <!-- Navigation bar with 3 pages & contest -->
     <div class="container bar clearfix">
         <div class="nav-left">
-            <a href="outside.html" class="link">Outside</a>
-            <a href="inside.html" class="link">Inside</a>
-            <a href="animals.html" class="link">Animals</a>
+            <a href="outside.html" class="link">Outside <i class="fa-solid fa-tree"></i></a>
+            <a href="inside.html" class="link">Inside <i class="fa-solid fa-house"></i></a>
+            <a href="animals.html" class="link">Animals <i class="fa-solid fa-paw"></i></a>
         </div>
         <div class="nav-right">
             <a href="contest.html" class="link">Contest</a>
@@ -33,25 +32,25 @@
     </div>
 
     <!-- Contest form -->
-        <div class="container">
-            <h3>Win a BBQ at The House</h3>
-            <h4>Your details</h4>
+        <div class="container form">
+            <h2>Win a BBQ at The House</h2>
+            <h3>Your details</h3>
             <div class="flex-container">
                 <div class="flex-item">
                     <label for="name-field" class="contest-info">Name: </label>
-                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required />
+                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-input" required />
                 </div>
                 <div class="flex-item">
                     <label for="surname-field" class="contest-info">Surname: </label>
-                    <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-box" required />
+                    <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-input" required />
                 </div>
                 <div class="flex-item">
                     <label for="email-field" class="contest-info">Email: </label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required />
+                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required />
                 </div>
                 <div class="flex-item">
                     <label for="age" class="contest-info">Age group: </label>
-                    <select name="age" id="age" class="text-box">
+                    <select name="age" id="age" class="text-input">
                         <option value="0-18">0 to 18</option>
                         <option value="19-30">19 to 30</option>
                         <option value="30-50">30 to 50</option>
@@ -61,7 +60,7 @@
             </div>
             <div class="flex-container">
                 <div class="flex-item">
-                    <h4>Question 1</h4>
+                    <h3>Question 1</h3>
                     <div>
                         <label for="option1">Option 1</label>
                         <input type="radio" id="option1" value="option1" name="question1">
@@ -76,7 +75,7 @@
                     </div>
                 </div>
                 <div class="flex-item">
-                    <h4>Question 2</h4>
+                    <h3>Question 2</h3>
                     <div>
                         <label for="optiona">Option a</label>
                         <input type="radio" id="optiona" value="optiona" name="question2">
@@ -91,7 +90,7 @@
                     </div>
                 </div>
                 <div class="flex-item">
-                    <h4>Question 3</h4>
+                    <h3>Question 3</h3>
                     <div>
                         <label for="optionx">Option X</label>
                         <input type="radio" id="optionx" value="optionx" name="question3">
@@ -106,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <h4>Preferences</h4>
+            <h3>Preferences</h3>
             <div class="flex-container">
                 <div class="flex-item">
                     <label for="idea1-checkbox" class="contest-info">Idea 1</label>

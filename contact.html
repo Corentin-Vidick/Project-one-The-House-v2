@@ -22,9 +22,9 @@
    <!-- Navigation bar with 3 pages & contest -->
    <div class="container bar clearfix">
     <div class="nav-left">
-        <a href="outside.html" class="link">Outside</a>
-        <a href="inside.html" class="link">Inside</a>
-        <a href="animals.html" class="link">Animals</a>
+        <a href="outside.html" class="link">Outside <i class="fa-solid fa-tree"></i></a>
+        <a href="inside.html" class="link">Inside <i class="fa-solid fa-house"></i></a>
+        <a href="animals.html" class="link">Animals <i class="fa-solid fa-paw"></i></a>
     </div>
     <div class="nav-right">
         <a href="contest.html" class="link">Contest</a>
@@ -32,25 +32,25 @@
 </div>
 
     <!-- Contact form -->
-    <div class="container">
+    <div class="container form">
         <h2>Contact Us</h2>
-        <h4>Your details</h4>
+        <h3>Your details</h3>
         <div class="flex-container">
                 <div class="flex-item">
-                    <label for="name-field" class="contact-info">Name: </label>
-                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-box" required/>
+                    <label for="name-field">Name: </label>
+                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-input" required/>
                 </div>
                 <div class="flex-item">
-                    <label for="email-field" class="contact-info">Email: </label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
+                    <label for="email-field">Email: </label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required/>
                 </div>
                 <div class="flex-item">
-                    <label for="email-field" class="contact-info">Email: </label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-box" required/>
+                    <label for="email-field">Email: </label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required/>
                 </div>
                 <div class="flex-item">
                     <label for="contact">Reason for contact: </label>
-                    <select name="language" id="language">
+                    <select name="language" id="language" class="text-input">
                           <option value="indoors">Indoors</option>
                           <option value="outdoors">Outdoors</option>
                           <option value="animals">Animals</option>
@@ -58,10 +58,10 @@
                     </select>
                 </div>
             </div>
-                <h4>Your message</h4>
+                <h3>Your message</h3>
             <div class="flex-container">
                 <div class="flex-item">
-                    <textarea id="message" rows="10" cols="87" name="message" class="text-box"></textarea>
+                    <textarea name="message" class="text-input"></textarea>
                 </div>   
             </div>            
         </div>
