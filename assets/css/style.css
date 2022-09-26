@@ -12,8 +12,16 @@ img {
 }
 
 .img-s {
-    width: 160px;
+    width: 156px;
     height: 120px;
+    float: right;
+    overflow: auto;
+    padding: 5px;
+}
+
+.img-h {
+    width: 110px;
+    height: 187px;
     float: right;
     overflow: auto;
     padding: 5px;
