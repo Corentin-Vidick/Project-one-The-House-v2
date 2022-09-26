@@ -16,7 +16,7 @@
       <!-- Banner and title -->
     <div class="container">
         <a href="index.html" class="link" aria-label="Main page"><h1>The House</h1></a>
-        <img src="assets/images/banner.jpg" alt="A rabbit's, dog's and cats' photos" width="1440px" height="300px">
+        <img src="assets/images/banner.jpg" alt="A rabbit's, dog's and cats' photos" id="img-banner">
     </div>
 
     <!-- Navigation bar with 3 pages & contest -->
@@ -36,29 +36,28 @@
         <h2>Contact Us</h2>
         <h3>Your details</h3>
         <div class="flex-container">
-                <div class="flex-item">
-                    <label for="name-field">Name: </label>
-                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-input" required/>
-                </div>
-                <div class="flex-item">
-                    <label for="surname-field">Surname: </label>
-                    <input id="surname-field" type="text" name="surname" placeholder="Your email" class="text-input" required/>
-                </div>
-                <div class="flex-item">
-                    <label for="email-field">Email: </label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required/>
-                </div>
-                <div class="flex-item">
-                    <label for="contact">Reason for contact: </label>
-                    <select name="language" id="language" class="text-input">
-                          <option value="indoors">Indoors</option>
-                          <option value="outdoors">Outdoors</option>
-                          <option value="animals">Animals</option>
-                          <option value="other">Other</option>
-                    </select>
-                </div>
+            <div class="flex-item">
+                <label for="name-field">Name: </label>
+                <input id="name-field" type="text" name="name" placeholder="Your name" class="text-input" required/>
             </div>
-                <h3>Your message</h3>
+            <div class="flex-item">
+                <label for="surname-field">Surname: </label>
+                <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-input" required/>
+            </div>
+            <div class="flex-item">
+                <label for="email-field">Email: </label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required/>
+            </div>
+            <div class="flex-item">
+                <label for="reason">Reason for contact: </label>
+                <select name="reason" id="reason" class="text-input">
+                        <option value="indoors">Indoors</option>
+                        <option value="outdoors">Outdoors</option>
+                        <option value="animals">Animals</option>
+                        <option value="other">Other</option>
+                </select>
+            </div>
+            <h3>Your message</h3>
             <div class="flex-container">
                 <div class="flex-item">
                     <textarea name="contact-message" class="text-input" aria-label="contact-message"></textarea>

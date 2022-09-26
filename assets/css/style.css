@@ -11,6 +11,11 @@ img {
     height: auto;
 }
 
+#img-banner {
+    width: 100%;
+    height: auto;
+}
+
 .img-s {
     width: 156px;
     height: 120px;
@@ -151,9 +156,4 @@ h3 {
     .flex-item {
         width: 75%;
     }
-}
-
-/* For small screen sizes 800px and down*/
-
-@media screen and (max-width: 800px) {
 }
