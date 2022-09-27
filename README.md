@@ -95,16 +95,26 @@ o	Contest: focus drawing to contest page offering a BBQ, used to bring attention
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Corentin-Vidick/Project-one-The-House-v2), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://corentin-vidick.github.io/Project-one-The-House-v2/index.html
+The live link can be found [here](https://corentin-vidick.github.io/Project-one-The-House-v2)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Corentin-Vidick/Project-one-The-House-v2.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Corentin-Vidick/Project-one-The-House-v2)
 
 
 ## Credits 
 
 - The icons in the navigation bar were taken from [Font Awesome](https://fontawesome.com/)
-- The font on the website was taken from [Google Fonts] (https://fonts.google.com/)
-- Clearfix solution taken from [W3 Schools] (https://www.w3schools.com/css/css_float_clear.asp)
+- The font on the website was taken from [Google Fonts](https://fonts.google.com/)
+- Clearfix solution taken from [W3 Schools](https://www.w3schools.com/css/css_float_clear.asp)
