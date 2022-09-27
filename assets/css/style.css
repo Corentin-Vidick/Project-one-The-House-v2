@@ -144,8 +144,16 @@ button {
 }
 
 /* Responsiveness */
-.link:hover, h1:hover{
+.link:hover, h1:hover, #participate:hover {
     color: #9e2e2C;
+}
+
+.active:hover {
+    text-decoration: underline #9e2e2C double;
+}
+
+#participate:hover {
+    text-decoration: underline #9e2e2C wavy;
 }
 
 .active{
