@@ -65,6 +65,10 @@ li {
     overflow: auto;
 }
 
+p {
+    margin: 10px;
+}
+
 /* Removes all margins, padding and borders to start on blank slate */
 * {
     margin: 0;
@@ -111,12 +115,12 @@ h3 {
 
 .nav-left a {
     float: left;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 .nav-right {
     float: right;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 /* Forms */
@@ -141,6 +145,12 @@ button {
 
 #thank-you {
     height: 500px;
+}
+
+.form-title {
+    background-color: #70d145;
+    border-radius: 50px;
+    margin: 10px;
 }
 
 /* Responsiveness */
