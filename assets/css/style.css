@@ -51,7 +51,7 @@ img {
 }
 
 .full {
-    width: 75%;
+    width: 90%;
 }
 
 ul {
@@ -132,20 +132,17 @@ h3 {
     text-align: center;
 }
 
-button {
-    background-color: #188578;
-}
-
-#participate {
-    font-size: 0.8em;
-    background-color: #70d145;
-    border-radius: 50px;
-    margin: 10px;
+input[type=submit] {
+    font-family: lobster, sans-serif;
+    color: #d13a3a;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.5em;
     text-decoration: underline #d13c3a wavy;
-}
-
-#thank-you {
-    height: 500px;
+    background-color: #70d145;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .form-title {
