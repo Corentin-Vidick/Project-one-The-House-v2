@@ -2,7 +2,8 @@
 
 The house is a site intended to showcase how we run our house and how it evolves over time. We target younger new homeowners and give them an overview of what we go through and how we set up our space. We hope to be able to help other people see possibilities in their future or new property and the outcomes of certain decisions.
 
-![Responsive Mockup](#)
+[Responsive Mockup](https://ui.dev/amiresponsive?url=https://corentin-vidick.github.io/Project-one-The-House-v2/index.html)
+![Responsive mockup image](/documentation/responsive-design.jpg)
 
 ## Features 
 
