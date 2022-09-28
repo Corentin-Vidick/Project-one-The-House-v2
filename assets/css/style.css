@@ -16,17 +16,17 @@ img {
     height: auto;
 }
 
-.img-s {
-    width: 156px;
+.img-long {
+    width: auto;
     height: 120px;
     float: right;
     overflow: auto;
     padding: 5px;
 }
 
-.img-h {
-    width: 110px;
-    height: 187px;
+.img-high {
+    width: 120px;
+    height: auto;
     float: right;
     overflow: auto;
     padding: 5px;
