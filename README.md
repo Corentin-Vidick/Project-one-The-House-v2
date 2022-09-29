@@ -82,10 +82,9 @@ o	Contest: focus drawing to contest page offering a BBQ, used to bring attention
 
 
 
-## Testing 
+## Testing
 
-
-- __Features__
+__Features__
 
 -	Internal links: all pages accessible from anywhere on the website, each page contains internal links in h1, navigation bar and right-hand-side of footer.
 -	External links: all external links – social media and “Learn more” – open in new tab.
@@ -96,10 +95,39 @@ o	Contest: focus drawing to contest page offering a BBQ, used to bring attention
 ![Responsiveness](/documentation/responsiveness.jpg)
 - All links change colour when hovered over and current page made clear by style change.
 ![Links](/documentation/links.jpg)
+- Browser compatibility: website responds correctly on different browsers
+![Browser Chrome](/documentation/browser-chrome.jpg)
+![Browser Edge](/documentation/browser-edge.jpg)
 -	Use of floats and flexbox to style pages and improve adptability.
+```css
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
 
+.flex-item {
+    text-align: center;
+    margin: 20px;
+    width: 45%;
+    background-color: #70d145;
+}
+```
 
-- __Testing __
+```css
+.nav-left a {
+    float: left;
+    padding: 10px 30px;
+}
+
+.nav-right {
+    float: right;
+    padding: 10px 30px;
+}
+```
+
+__Testing__
 
 -	Responsiveness and links tested throughout build. Page loaded and trialled on different devices to test adaptability.
 ![Smartphone](/documentation/smartphone.jpg) Links tested from various devices to test connectivity.
@@ -116,7 +144,7 @@ o	Contest: focus drawing to contest page offering a BBQ, used to bring attention
     - ![W3C validator Contest](/documentation/html-contest.jpg)
     - ![W3C validator Contact](/documentation/html-contact.jpg)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](/documentation/css-main.jpg)
+  - No errors were found when passing through the official ![(Jigsaw) validator](/documentation/css-main.jpg)
 - Lighthouse
   - All pages pass Lighthouse tests > 90%
     - ![Lighthouse Main](/documentation/lighthouse-main.jpg)
@@ -127,7 +155,7 @@ o	Contest: focus drawing to contest page offering a BBQ, used to bring attention
     - ![Lighthouse Contact](/documentation/lighthouse-contact.jpg)
 
 ### Unfixed Bugs
-
+  - There are no unfixed bugs that I am aware of at this time.
 
 ## Deployment
 
@@ -154,3 +182,5 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - The icons in the navigation bar were taken from [Font Awesome](https://fontawesome.com/)
 - The font on the website was taken from [Google Fonts](https://fonts.google.com/)
 - Clearfix solution taken from [W3 Schools](https://www.w3schools.com/css/css_float_clear.asp)
+- Colors chosen from [Adobe Color](https://color.adobe.com/create/color-wheel)
+- All images and text are property of the developer, Corentin Vidick
