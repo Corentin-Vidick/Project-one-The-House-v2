@@ -13,9 +13,11 @@
 </head>
 
 <body>
-      <!-- Banner and title -->
+    <!-- Banner and title -->
     <header class="container">
-        <a href="index.html" class="link" aria-label="Main page"><h1>The House</h1></a>
+        <a href="index.html" class="link" aria-label="Main page">
+            <h1>The House</h1>
+        </a>
         <img src="assets/images/banner.jpg" alt="A rabbit's, dog's and cats' photos" id="img-banner">
     </header>
 
@@ -24,7 +26,8 @@
         <div class="nav-left">
             <a href="outside.html" class="link" aria-label="Outside page">Outside <i class="fa-solid fa-tree"></i></a>
             <a href="inside.html" class="link" aria-label="Inside page">Inside <i class="fa-solid fa-house"></i></a>
-            <a href="learnmore.html" class="link" aria-label="Learn more page">Learn more <i class="fa-solid fa-brain"></i></a>
+            <a href="learnmore.html" class="link" aria-label="Learn more page">Learn more <i
+                    class="fa-solid fa-brain"></i></a>
         </div>
         <div class="nav-right">
             <a href="contest.html" class="link active">Contest</a>
@@ -32,110 +35,114 @@
     </nav>
 
     <!-- Contest form -->
-        <form class="container form">
-            <h2 class="form-title">Win a BBQ at The House</h2>
-            <h3>Your details</h3>
-            <div class="flex-container">
-                <div class="flex-item">
-                    <label for="name-field" class="contest-info">Name: </label>
-                    <input id="name-field" type="text" name="name" placeholder="Your name" class="text-input" required >
-                </div>
-                <div class="flex-item">
-                    <label for="surname-field" class="contest-info">Surname: </label>
-                    <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-input" required >
-                </div>
-                <div class="flex-item">
-                    <label for="email-field" class="contest-info">Email: </label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required >
-                </div>
-                <div class="flex-item">
-                    <label for="age" class="contest-info">Age group: </label>
-                    <select name="age" id="age" class="text-input">
-                        <option value="0-18">0 to 18</option>
-                        <option value="19-30">19 to 30</option>
-                        <option value="30-50">30 to 50</option>
-                        <option value="50+">50 plus</option>
-                    </select>
-                </div>   
+    <form class="container form">
+        <h2 class="form-title">Win a BBQ at The House</h2>
+        <h3>Your details</h3>
+        <div class="flex-container">
+            <div class="flex-item">
+                <label for="name-field" class="contest-info">Name: </label>
+                <input id="name-field" type="text" name="name" placeholder="Your name" class="text-input" required>
             </div>
-            <div class="flex-container">
-                <div class="flex-item">
-                    <h3>Which country do we live in?</h3>
-                    <div>
-                        <label for="australia">Australia</label>
-                        <input type="radio" id="australia" value="australia" name="question1" checked>
-                    </div>
-                    <div>
-                        <label for="united-kingdom">United Kindom</label>
-                        <input type="radio" id="united-kingdom" value="united-kingdom" name="question1">
-                    </div>
-                    <div>
-                        <label for="canada">Canada</label>
-                        <input type="radio" id="canada" value="canada" name="question1">
-                    </div>
+            <div class="flex-item">
+                <label for="surname-field" class="contest-info">Surname: </label>
+                <input id="surname-field" type="text" name="surname" placeholder="Your surname" class="text-input"
+                    required>
+            </div>
+            <div class="flex-item">
+                <label for="email-field" class="contest-info">Email: </label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" class="text-input" required>
+            </div>
+            <div class="flex-item">
+                <label for="age" class="contest-info">Age group: </label>
+                <select name="age" id="age" class="text-input">
+                    <option value="0-18">0 to 18</option>
+                    <option value="19-30">19 to 30</option>
+                    <option value="30-50">30 to 50</option>
+                    <option value="50+">50 plus</option>
+                </select>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>Which country do we live in?</h3>
+                <div>
+                    <label for="australia">Australia</label>
+                    <input type="radio" id="australia" value="australia" name="question1" checked>
                 </div>
-                <div class="flex-item">
-                    <h3>How many pets do we have?</h3>
-                    <div>
-                        <label for="three">Three</label>
-                        <input type="radio" id="three" value="three" name="question2" checked>
-                    </div>
-                    <div>
-                        <label for="five">Five</label>
-                        <input type="radio" id="five" value="five" name="question2">
-                    </div>
-                    <div>
-                        <label for="seven">Seven</label>
-                        <input type="radio" id="seven" value="seven" name="question2">
-                    </div>
+                <div>
+                    <label for="united-kingdom">United Kindom</label>
+                    <input type="radio" id="united-kingdom" value="united-kingdom" name="question1">
                 </div>
-                <div class="flex-item">
-                    <h3>How big is the plot we want?</h3>
-                    <div>
-                        <label for="twenty-five">25m2</label>
-                        <input type="radio" id="twenty-five" value="twenty-five" name="question3" checked>
-                    </div>
-                    <div>
-                        <label for="thirty">30m2</label>
-                        <input type="radio" id="thirty" value="thirty" name="question3">
-                    </div>
-                    <div>
-                        <label for="thirty-five">35m2</label>
-                        <input type="radio" id="thirty-five" value="thirty-five" name="question3">
-                    </div>
+                <div>
+                    <label for="canada">Canada</label>
+                    <input type="radio" id="canada" value="canada" name="question1">
                 </div>
             </div>
-            <h3>Preferences</h3>
-            <div class="flex-container">
-                <div class="flex-item">
-                    <label for="pref1-checkbox" class="contest-info">Vegetables</label>
-                    <input type="checkbox" id="pref1-checkbox" name="vegetables" checked>
+            <div class="flex-item">
+                <h3>How many pets do we have?</h3>
+                <div>
+                    <label for="three">Three</label>
+                    <input type="radio" id="three" value="three" name="question2" checked>
                 </div>
-                <div class="flex-item">
-                    <label for="pref2-checkbox" class="contest-info">Meat</label>
-                    <input type="checkbox" id="pref2-checkbox" name="meat">
+                <div>
+                    <label for="five">Five</label>
+                    <input type="radio" id="five" value="five" name="question2">
                 </div>
-                <div class="flex-item">
-                    <label for="pref3-checkbox" class="contest-info">Fish</label>
-                    <input type="checkbox" id="pref3-checkbox" name="fish">
+                <div>
+                    <label for="seven">Seven</label>
+                    <input type="radio" id="seven" value="seven" name="question2">
                 </div>
-                <div class="flex-item">
-                    <label for="pref4-checkbox" class="contest-info">Carbohydrates</label>
-                    <input type="checkbox" id="pref4-checkbox" name="carbohydrates">
-                </div>    
             </div>
-            <div class="flex-container">
-                <input type="submit" value="Participate">
+            <div class="flex-item">
+                <h3>How big is the plot we want?</h3>
+                <div>
+                    <label for="twenty-five">25m2</label>
+                    <input type="radio" id="twenty-five" value="twenty-five" name="question3" checked>
+                </div>
+                <div>
+                    <label for="thirty">30m2</label>
+                    <input type="radio" id="thirty" value="thirty" name="question3">
+                </div>
+                <div>
+                    <label for="thirty-five">35m2</label>
+                    <input type="radio" id="thirty-five" value="thirty-five" name="question3">
+                </div>
             </div>
-            
-        </form>
+        </div>
+        <h3>Preferences</h3>
+        <div class="flex-container">
+            <div class="flex-item">
+                <label for="pref1-checkbox" class="contest-info">Vegetables</label>
+                <input type="checkbox" id="pref1-checkbox" name="vegetables" checked>
+            </div>
+            <div class="flex-item">
+                <label for="pref2-checkbox" class="contest-info">Meat</label>
+                <input type="checkbox" id="pref2-checkbox" name="meat">
+            </div>
+            <div class="flex-item">
+                <label for="pref3-checkbox" class="contest-info">Fish</label>
+                <input type="checkbox" id="pref3-checkbox" name="fish">
+            </div>
+            <div class="flex-item">
+                <label for="pref4-checkbox" class="contest-info">Carbohydrates</label>
+                <input type="checkbox" id="pref4-checkbox" name="carbohydrates">
+            </div>
+        </div>
+        <div class="flex-container">
+            <input type="submit" value="Participate">
+        </div>
+
+    </form>
 
     <!-- Social media links and "Contact Us" link -->
     <footer class="container bar clearfix">
         <div class="nav-left">
-                <a href="https://facebook.com" target="_blank" class="link" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://pinterest.com" target="_blank" class="link" aria-label="Visit our Pinterest page (opens in a new tab)"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://instagram.com" target="_blank" class="link" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" class="link"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://pinterest.com" target="_blank" class="link"
+                aria-label="Visit our Pinterest page (opens in a new tab)"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="https://instagram.com" target="_blank" class="link"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <div class="nav-right">
             <a href="contact.html" class="link" aria-label="Contact page">Contact</a>

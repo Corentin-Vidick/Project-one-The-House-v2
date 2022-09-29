@@ -1,6 +1,8 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
 
+/* Global styles */
+
 .container {
     position: relative;
     background-color: #30d1be;
@@ -9,27 +11,6 @@
 img {
     width: 100%;
     height: auto;
-}
-
-#img-banner {
-    width: 100%;
-    height: auto;
-}
-
-.img-long {
-    width: auto;
-    height: 120px;
-    float: right;
-    overflow: auto;
-    padding: 5px;
-}
-
-.img-high {
-    width: 120px;
-    height: auto;
-    float: right;
-    overflow: auto;
-    padding: 5px;
 }
 
 .flex-container {
@@ -46,17 +27,10 @@ img {
     background-color: #70d145;
 }
 
-.fixed-height {
-    line-height: 75px;
-}
-
-.full {
-    width: 90%;
-}
-
 ul {
     list-style-type: none;
 }
+
 li {
     font-size: 0.9em;
 }
@@ -79,12 +53,48 @@ p {
     font-size: 1.05em;
 }
 
+/* Images */
+
+#img-banner {
+    width: 100%;
+    height: auto;
+}
+
+.img-long {
+    width: auto;
+    height: 120px;
+    float: right;
+    overflow: auto;
+    padding: 5px;
+}
+
+.img-high {
+    width: 120px;
+    height: auto;
+    float: right;
+    overflow: auto;
+    padding: 5px;
+}
+
+/* Flex items */
+
+.fixed-height {
+    line-height: 75px;
+}
+
+.full {
+    width: 90%;
+}
+
 /* Headings, logo */
-body, .form {
+body,
+.form {
     background-color: #188578;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: lobster, sans-serif;
     color: #d13a3a;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -152,7 +162,9 @@ input[type=submit] {
 }
 
 /* Responsiveness */
-.link:hover, h1:hover, #participate:hover {
+.link:hover,
+h1:hover,
+#participate:hover {
     color: #9e2e2C;
 }
 
@@ -164,7 +176,7 @@ input[type=submit] {
     text-decoration: underline #9e2e2C wavy;
 }
 
-.active{
+.active {
     text-decoration: underline #d13c3a double;
 }
 
@@ -172,7 +184,9 @@ input[type=submit] {
 /* For medium screen sizes from 950px wide and down*/
 
 @media screen and (max-width: 950px) {
-    h1, h2 {
+
+    h1,
+    h2 {
         font-size: 2em;
     }
 
